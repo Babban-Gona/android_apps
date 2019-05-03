@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#202020</color>
+    <color name="colorAccent">#33b5e5</color>
+    <color name="black_overlay">#202020</color>
+
+
+    <!-- Background color for buttons -->
+    <color name="btn_bg_color">#050150</color>
+    <color name="btn_info_color">#33b5e5</color>
+
+    <!-- Background color for text -->
+    <color name="txt_bg_color">#050150</color>
+    <color name="txt_white_color">#fff</color>
+    <color name="txt_black_color">#202020</color>
+    <color name="txt_grey_colour">#3b3b3b</color>
+
+    <!-- Background colors for layout -->
+    <color name="layout_black">#202020</color>
+    <color name="layout_light_grey">#3b3b3b</color>
+    <color name="layout_dark_grey">#202020</color>>
+    <color name="layout_white">#fff</color>
+    <color name="shadow_colour">#636363</color>
+
+
+    <!-- MATERIAL COLOURS FOR THE RECYCLER UI -->
+    <color name="colour_card_1">#4db6ac</color>
+    <color name="colour_card_2">#8d6e63</color>
+    <color name="colour_card_3">#ff7043</color>
+    <color name="colour_card_4">#7e57c2</color>
+
+
+
+</resources>

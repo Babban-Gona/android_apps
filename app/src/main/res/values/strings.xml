@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">SHPIncentiveApp</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main2_activit_y">Main2ActivitY</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- THIS ARE STRINGS FOR THE MAIN ACTIVITY CLASS BELOW -->
+    <string name="tv_string">Open access control to use this application</string>
+    <string name="crd_string">Open Access Control</string>
+    <string name="tv_footer">Enterprise Systems | 2019</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="login_success">Login credentials saved successfully</string>
+
+    <!-- THIS ARE STRINGS FOR THE MAIN 2 ACTIVITY CLASS BELOW -->
+    <string name="main2activity_visualisation_title"> Visualisation</string>
+    <string name="main2activity_visualisation_details"> This page shows you how well you are meeting up with your daily targets</string>
+    <string name="main2activity_visualisation_viewdetails"> View Details</string>
+
+    <string name="main2activity_dashboard_title"> Dasboard</string>
+    <string name="main2activity_dashboard_details"> This page shows you progress statistics</string>
+
+
+    <!--THESE ARE STRINGS FOR THE HOMEPAGE CLASS-->
+    <string name="homepage_notask">You have not set a task for your report(s), click the button below to set a task</string>
+    <string name="homepage_setTask">New Task</string>
+    <string name="homepage_activity">Choose an activity</string>
+    <string name="homepage_reports">Designate Task To</string>
+    <string name="homepage_target">Define Target</string>
+    <string name="homepage_setduration">Set Duration</string>
+
+    <!--THESE ARE STRINGS FOR THE VISUALISATION CLASS-->
+    <string name="visualisation_progressbar_done"> Status done </string>
+    <string name="visualisation_progressbar_upload">Status Uploaded</string>
+    <string name="visualisation_progressbar_home">Return Home</string>
+    <string name="visualisation_progressbar_details">My Details</string>
+
+
+    <string name="visualisation_day">Today</string>
+    <string name="visualisation_week">This Week</string>
+    <string name="visualisation_period">This Payment Period</string>
+    <string name="visualisation_year">Since Year Started</string>
+
+
+    <!-- THESE STRINGS ARE FOR THE RECYCLER ACTIVITY -->
+    <string name="recycler_iamworking">I am working target</string>
+    <string name="recycler_iamsuccessful">Success Bonus</string>
+    <string name="recycler_progress">Your Progress</string>
+    <string name="recycler_concat1">of minimum daily target </string>
+    <string name="recycler_concat2">completed</string>
+
+    <string name="menu_progress">Activity Dashboard</string>
+    <string name="menu_dashboard">Payment Dashboard</string>
+    <string name="menu_attendance">Generate QR for Attendance</string>
+    <string name="menu_profile">My Profile</string>
+
+
+    <!--THESE STRINGS ARE FOR THE RECYCLER YEAR ACTIVITY-->
+    <string name="year_recycler_header">First Activity Recorded: </string>
+    <string name="year_recycler_body"> X Activity Rate</string>
+
+    <!-- ACTIVITY DASHBOARDS -->
+    <string name="activity_dashboard_legend1a">You earn Max ₦ </string>
+    <string name="activity_dashboard_legend1b"> daily for (i am working) </string>
+
+    <string name="activity_dashboard_legend2a">you earn unit ₦ </string>
+    <string name="activity_dashboard_legend2b"> for every(i am successful)  </string>
+
+    <string name="activity_dashboard_legend3a">you earn ₦  </string>
+    <string name="activity_dashboard_legend3b"> for each </string>
+    <string name="activity_dashboard_dailyrate"> No rates for this activity</string>
+
+
+    <string name="successful_status">Incentive Pay</string>
+    <string name="working_status">Base Pay</string>
+
+
+
+    <!-- FULL DASHBOARD -->
+    <string name="full_dashboard_current_payment_period">This Payment Period</string>
+    <string name="full_dashboard_previous_payment_period">Previous Payment Period</string>
+
+
+    <!-- THIS ARE STRRINGS FOR QR CODE GENERATOR-->
+    <string name="qrcode_title">QR code generator</string>
+    <string name="qrcode_generator">Turn on your Location sensor to generate QR code</string>
+    <string name="qr_generator">generating QR code, Please wait...</string>
+
+
+
+
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDashboard"
+    android:background="@color/layout_light_grey"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:elevation="5dp"
+            android:translationZ="5dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:weightSum="1.2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/visualisation_week"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/visualisation_week"
+                    android:textColor="@color/txt_black_color" />
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/txt_black_color"
+                    />
+
+                <TextView
+                    android:id="@+id/visualisation_month"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto"
+                    android:layout_weight="0.4"
+                    android:gravity="center"
+                    android:text="@string/visualisation_period"
+                    android:textColor="@color/txt_black_color" />
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/txt_black_color"
+                    />
+
+                <TextView
+                    android:id="@+id/visualisation_year"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto"
+                    android:layout_weight="0.4"
+                    android:gravity="center"
+                    android:text="@string/visualisation_year"
+                    android:textColor="@color/txt_black_color" />
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/operation_period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/txt_white_color"
+        android:textSize="14sp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/activity_dashboard_class"
+        android:elevation="5dp"
+        android:translationZ="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/activity_dashboard_barchart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

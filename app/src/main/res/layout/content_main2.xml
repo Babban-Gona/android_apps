@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main2Activity"
+    android:padding = "10dp"
+    android:background="@color/layout_light_grey"
+    tools:showIn="@layout/app_bar_main2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:elevation="5dp"
+            android:translationZ="5dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:weightSum="1.6"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/visualisation_today"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:text="@string/visualisation_day"
+                    android:layout_weight="0.4"
+                    android:textSize="12dp"
+                    android:textColor="@color/txt_black_color" />
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/txt_black_color"
+                    />
+
+                <TextView
+                    android:id="@+id/visualisation_week"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:layout_weight="0.4"
+                    android:textSize="12dp"
+                    android:text="@string/visualisation_week"
+                    android:textColor="@color/txt_black_color" />
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:background="@color/txt_black_color"
+                    />
+
+                <TextView
+                    android:id="@+id/visualisation_month"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/visualisation_period"
+                    android:textColor="@color/txt_black_color"
+                    android:textSize="12dp" />
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:textSize="12dp"
+                    android:background="@color/txt_black_color"
+                    />
+
+                <TextView
+                    android:id="@+id/visualisation_year"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:layout_weight="0.4"
+                    android:text="@string/visualisation_year"
+                    android:textColor="@color/txt_black_color" />
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/operation_period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/txt_white_color"
+        android:textSize="14sp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylcerView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="15dp"
+        tools:layout_editor_absoluteX="745dp"
+        tools:layout_editor_absoluteY="-51dp" />
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ActivityDashboard"
+android:background="@color/layout_light_grey"
+android:padding="10dp"
+android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:background="@color/layout_white"
+
+        android:weightSum="1.0"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/fulldashboard_previous"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:text="@string/full_dashboard_previous_payment_period"
+            android:textColor="@color/txt_black_color" />
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:background="@color/txt_black_color"
+            />
+
+        <TextView
+            android:id="@+id/fulldashboard_current"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:text="@string/full_dashboard_current_payment_period"
+            android:textColor="@color/txt_black_color" />
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/date_format"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/txt_white_color"
+        android:textSize="14sp" />
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/activity_dashboard_class"
+    android:elevation="5dp"
+    android:translationZ="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:id="@+id/workingStatus"
+                android:textColor="@color/txt_black_color" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:id="@+id/successfulStatus"
+                android:textColor="@color/txt_black_color" />
+
+        </LinearLayout>-->
+
+
+
+        <com.github.mikephil.charting.charts.CandleStickChart
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_dashboard_barchart">
+
+
+        </com.github.mikephil.charting.charts.CandleStickChart>
+
+        <com.github.mikephil.charting.charts.CandleStickChart
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_dashboard_barchart_previous">
+
+
+        </com.github.mikephil.charting.charts.CandleStickChart>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+</LinearLayout>
