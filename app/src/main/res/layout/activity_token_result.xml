@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".TokenResult">
+    <TextView
+        android:background="@color/view_red"
+        android:layout_width="match_parent"
+        android:text="@string/tknresult_info"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="@color/view_white"
+
+        />
+
+    <TextView
+        android:background="@color/view_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/view_black"
+        android:layout_marginTop="10dp"
+        android:id = "@+id/tvName"/>
+
+    <TextView
+        android:background="@color/view_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/view_black"
+        android:id = "@+id/tvPackageType"/>
+    <TextView
+        android:background="@color/view_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/view_black"
+        android:id = "@+id/tvSeedType"/>
+
+    <TextView
+        android:background="@color/view_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/view_black"
+        android:layout_marginTop="10dp"
+        android:id = "@+id/tvSeed"/>
+
+    <TextView
+        android:background="@color/view_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/view_black"
+        android:id = "@+id/tvAtrazine"/>
+
+    <TextView
+        android:background="@color/view_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/view_black"
+        android:id = "@+id/tvUrea"/>
+
+    <TextView
+        android:background="@color/view_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/view_black"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:id = "@+id/tvDap"/>
+    <TextView
+        android:background="@color/view_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tknresult_message1"
+        android:textColor="@color/view_black"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:weightSum="1.0"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="Cancel"
+            android:layout_weight="0.5"
+            android:text="@string/tknresult_btncancel"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="Next"
+            android:text="@string/tknresult_btnnext" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

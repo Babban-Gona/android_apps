@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".TokenValidator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvLmdDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"
+            android:textColor="@color/view_black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/view_black"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:maxLength="4"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+
+        app:pinCharacterSpacing="6dp"
+        app:pinLineColors="@color/colorAccent"
+        app:pinRepeatedHint="X"
+        />
+
+
+
+    <!--
+    width is 6*48 + 4*5 = 308
+    6 characters
+    48dp width for each character (circle is the same as rect) so same width and height
+    4dp space between each character
+    5 spaces (spaces are usually characters - 1.
+    -->
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:maxLength="4"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+
+        app:pinCharacterSpacing="6dp"
+        app:pinLineColors="@color/colorAccent"
+        app:pinRepeatedHint="X"  />
+
+    <!--
+    width is 6*16 + 8*5 = 136
+    6 characters
+    16dp width for each character (circle is the same as rect) so same width and height
+    8dp space between each character
+    5 spaces (spaces are usually characters - 1.
+    -->
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:maxLength="4"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+
+        app:pinCharacterSpacing="6dp"
+        app:pinLineColors="@color/colorAccent"
+        app:pinRepeatedHint="X"  />
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:maxLength="4"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+
+        app:pinCharacterSpacing="6dp"
+        app:pinLineColors="@color/colorAccent"
+        app:pinRepeatedHint="X" />
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:maxLength="4"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+
+        app:pinCharacterSpacing="6dp"
+        app:pinLineColors="@color/colorAccent"
+        app:pinRepeatedHint="X" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/tknvalidator_btn1"
+        android:onClick="validate"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tknvalidator_btn2"
+        android:onClick="clear"/>
+
+</LinearLayout>

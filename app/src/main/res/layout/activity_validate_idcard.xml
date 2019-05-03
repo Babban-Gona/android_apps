@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation = "vertical"
+    android:id="@+id/transition_container"
+    android:layout_margin="@dimen/layout_margin"
+    android:layout_height="match_parent"
+    tools:context=".ValidateIDCard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/validateid_message1"
+        android:textSize="@dimen/normal_text"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/slim_rect_height"
+        android:background="@drawable/view_looks"
+        android:id="@+id/spn_idcard_status"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_rect_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/view_red"
+        android:gravity="center"
+        android:id="@+id/tv_idcard_pics"
+        android:visibility="gone"
+        android:text = "@string/validateid_message2"
+        android:textColor="@color/view_white"
+        android:textSize="@dimen/normal_text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_height="wrap_content"
+        android:text="@string/validateid_message3"
+        android:textSize="@dimen/normal_text"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/slim_rect_height"
+        android:background="@drawable/view_looks"
+        android:id="@+id/spn_acco_status"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_rect_height"
+        android:background="@color/view_red"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tv_acco_pics"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text = "@string/validateid_message4"
+        android:textColor="@color/view_white"
+        android:textSize="@dimen/normal_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+
+        android:id="@+id/btn_next"
+        android:text="@string/validateid_next"/>
+
+
+</LinearLayout>

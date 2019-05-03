@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/view_grey"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="1dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:paddingLeft="10dp"
+            android:textColor="@color/view_black"
+            android:textSize="18sp"
+            android:id = "@+id/tvMemName"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="0.9"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:id = "@+id/tvIkNumber"
+                android:textSize="16sp"
+                android:textColor="@color/view_black"
+                android:text="IK10000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:id = "@+id/tvLoanFieldSize"
+                android:textSize="16sp"
+                android:textColor="@color/view_black"
+                android:text="4 hectares"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:textSize="16sp"
+                android:id = "@+id/tvSyncStatus"
+                android:gravity="center"
+                android:textColor="@color/view_black"
+                android:text="synced"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

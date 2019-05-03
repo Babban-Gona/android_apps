@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.babbangona.evoucherapp.CameraPage">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/view_red"
+        android:text="@string/camera2"
+        android:id="@+id/camera2"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:onClick="member"
+        android:textColor="@color/view_white"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@color/view_blue"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/view_white"
+        android:text="@string/tknresult_btnnext"
+        android:id="@+id/next"/>
+
+
+
+</LinearLayout>
+</ScrollView>
